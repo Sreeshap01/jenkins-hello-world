@@ -19,7 +19,7 @@
         stage('Unit Test') {
             steps {
                 // To run Maven on a Windows agent, use
-                bat "maven test"
+                bat "mvn test"
             }
         }
     }
